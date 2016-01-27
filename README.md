@@ -3,9 +3,9 @@
 
 Modules that consolidate standard [Babel](https://babeljs.io/) configurations.
 
-- [`js-babel`](https://github.com/philcockfield/babel/tree/master/js-babel)
-- [`js-babel-dev`](https://github.com/philcockfield/babel/tree/master/js-babel-dev)
-- [`js-babel-ui`](https://github.com/philcockfield/babel/tree/master/js-babel-ui)
+- [`js-babel`](https://github.com/philcockfield/babel/tree/master/js-babel) - [npm](https://www.npmjs.com/package/js-babel)
+- [`js-babel-dev`](https://github.com/philcockfield/babel/tree/master/js-babel-dev) -  [npm](https://www.npmjs.com/package/js-babel-dev)
+- [`js-babel-ui`](https://github.com/philcockfield/babel/tree/master/js-babel-ui) -  [npm](https://www.npmjs.com/package/js-babel-ui)
 
 
 
