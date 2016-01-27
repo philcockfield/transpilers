@@ -9,7 +9,7 @@ The development tools comprise of:
 
 
 #### IMPORTANT
-Do not reference this library unless you are happy staying in lock-step with the babel transpiler plugins used by my [modules](https://github.com/philcockfield/modules) and other idiomatic decisions that I make.
+**Do not reference this library** unless you are happy staying in with the babel transpiler plugins used by my [modules](https://github.com/philcockfield/modules) and other idiomatic decisions that I make.
 
 ## Install
 A single dependency will bring all the standard babel development dependencies:

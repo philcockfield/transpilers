@@ -1,11 +1,13 @@
 # js-babel
 [![Build Status](https://travis-ci.org/philcockfield/js-babel.svg)](https://travis-ci.org/philcockfield/js-babel)
 
-Consolidated [Babel](https://babeljs.io/) dependencies.
-See also [`js-babel-dev`](https://github.com/philcockfield/js-babel-dev).
+Consolidated [Babel](https://babeljs.io/) dependencies for core ES transpiling.
+
+See also:
+- [`js-babel-dev`](https://github.com/philcockfield/js-babel-dev).
 
 #### IMPORTANT
-Do not reference this library unless you are happy staying in lock-step with the babel transpiler plugins used by my [modules](https://github.com/philcockfield/modules) and other idiomatic decisions that I make.
+**Do not reference this library** unless you are happy staying in lock-step with the babel transpiler plugins used by my [modules](https://github.com/philcockfield/modules) and other idiomatic decisions that I make.
 
 
 ## Install
