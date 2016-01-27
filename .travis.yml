@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - stable
+env:
+  - TEST_DIR=js-babel
+  - TEST_DIR=js-babel-dev
+script: cd $TEST_DIR && npm install && npm test
