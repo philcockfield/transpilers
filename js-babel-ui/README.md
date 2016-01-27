@@ -1,5 +1,5 @@
-# js-babel
-Consolidated [Babel](https://babeljs.io/) dependencies for core ES transpiling.
+# js-babel-ui
+Consolidated [Babel](https://babeljs.io/) dependencies for transpiling UI code (React).
 
 
 #### IMPORTANT
@@ -9,12 +9,12 @@ Consolidated [Babel](https://babeljs.io/) dependencies for core ES transpiling.
 ## Install
 A single dependency will bring all the standard babel presents and plugins:
 
-    npm install --save-dev js-babel
+    npm install --save-dev js-babel-ui
 
 ```json
 {
   "devDependencies": {
-    "js-babel": "^6.0.0"
+    "js-babel-ui": "^6.0.0"
   }
 }
 ```
@@ -26,7 +26,7 @@ A single dependency will bring all the standard babel presents and plugins:
 The references in this module's `package.json` allow for the following presents and plugins in your `.babelrc` file:
 
     {
-      "presets": ["es2015", "stage-0"],
+      "presets": ["es2015", "stage-0", "react"],
       "plugins": ["transform-class-properties"]
     }
 

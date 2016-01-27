@@ -1,9 +1,8 @@
-"use strict";
-import { expect } from "chai";
+import { expect } from 'chai';
 
 
-describe("babel", () => {
-  it("has a class property", () => {
+describe('babel', () => {
+  it('has a class property', () => {
     class Foo {
       static myStatic = 123;
     };

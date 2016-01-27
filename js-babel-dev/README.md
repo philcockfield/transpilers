@@ -1,11 +1,9 @@
 # js-babel-dev
-[![Build Status](https://travis-ci.org/philcockfield/js-babel-dev.svg)](https://travis-ci.org/philcockfield/js-babel-dev)
-
-Consolidated [Babel](https://babeljs.io/) (ES6+) development dependencies. For the core language libraries see [`js-babel`](https://github.com/philcockfield/js-babel).
+Consolidated [Babel](https://babeljs.io/) development dependencies.
 
 The development tools comprise of:
 - Linting tools.
-- [Babel CLI](https://babeljs.io/docs/usage/cli/) (for building).
+- [Babel CLI](https://babeljs.io/docs/usage/cli/) (for building to ES5 from scripts).
 
 
 #### IMPORTANT

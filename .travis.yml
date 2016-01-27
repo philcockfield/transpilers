@@ -4,4 +4,5 @@ node_js:
 env:
   - TEST_DIR=js-babel
   - TEST_DIR=js-babel-dev
+  - TEST_DIR=js-babel-ui
 script: cd $TEST_DIR && npm install && npm test
