@@ -1,0 +1,39 @@
+{
+  "name": "js-babel-dev",
+  "version": "6.0.0",
+  "description": "Consolidated babel dev-dependencies.",
+  "engines": {
+    "node": "^5.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
+    "tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch"
+  },
+  "dependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-eslint": "5.0.0-beta6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.15.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "js-babel": "^1.0.1",
+    "mocha": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philcockfield/js-babel-dev"
+  },
+  "keywords": [
+    "babel",
+    "npm"
+  ],
+  "author": {
+    "name": "Phil Cockfield",
+    "email": "phil@cockfield.net",
+    "url": "https://github.com/philcockfield"
+  },
+  "homepage": "https://github.com/philcockfield/js-babel-dev",
+  "license": "MIT"
+}
