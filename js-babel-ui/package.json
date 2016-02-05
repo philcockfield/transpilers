@@ -2,9 +2,6 @@
   "name": "js-babel-ui",
   "version": "6.0.1",
   "description": "Consolidated babel dependencies for UI (React).",
-  "engines": {
-    "node": "^5.5.0"
-  },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
     "tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch"
