@@ -1,6 +1,6 @@
 {
   "name": "js-babel-ui",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Consolidated babel dependencies for UI (React).",
   "engines": {
     "node": "^5.5.0"
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "js-babel": "^6.0.0",
+    "babel-loader": "^6.2.0",
     "babel-preset-react": "^6.3.13"
   },
   "devDependencies": {
