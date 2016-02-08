@@ -34,8 +34,17 @@ Typically you'll want to keep `js-babel` within the `devDependencies`, however t
     "js-babel-dev": "^6.0.0"
   }
 }
-
 ```
+
+When linting modules with JSX use:
+
+```json
+{
+  "lint": "eslint --ext .js,.jsx ./src",  
+}
+```
+
+
 
 ##### Example: .babelrc
 
@@ -61,6 +70,16 @@ Typically you'll want to keep `js-babel` within the `devDependencies`, however t
 }
 ```
 
+Additional rules for [React](https://facebook.github.io/react/):
+
+```json
+{
+  "rules": {
+    "new-cap": [0, { "capIsNewExceptions": ["React.Component"] }],
+    "react/jsx-closing-bracket-location": [2, { "location": "after-props" }]    
+  }
+}
+```
 
 
 **Note:** The `babel-preset-react` is not included.  Reference the [UIHarness](http://uiharness.com) for a compact and complete set of UI centric Babel presets.
