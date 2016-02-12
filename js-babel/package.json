@@ -1,22 +1,23 @@
 {
   "name": "js-babel",
-  "version": "6.0.1",
+  "version": "6.0.3",
   "description": "Consolidated babel dependencies.",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
-    "tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch"
+    "tdd": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register --watch",
+    "prepublish": "npm test"
   },
   "dependencies": {
-    "babel-core": "^6.3.21",
-    "babel-polyfill": "^6.3.14",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
-    "babel-plugin-transform-class-properties": "^6.3.13",
-    "babel-register": "^6.3.13"
+    "babel-core": "^6.5.1",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-plugin-transform-class-properties": "^6.5.0",
+    "babel-register": "^6.5.1"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "mocha": "^2.2.1"
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   },
   "repository": {
     "type": "git",
