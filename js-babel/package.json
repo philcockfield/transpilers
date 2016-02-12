@@ -1,6 +1,6 @@
 {
   "name": "js-babel",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "description": "Consolidated babel dependencies.",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
