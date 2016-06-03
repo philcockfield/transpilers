@@ -1,6 +1,6 @@
 {
   "name": "js-babel-dev",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "description": "Consolidated babel dev-dependencies.",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
@@ -8,16 +8,18 @@
     "prepublish": "npm test"
   },
   "dependencies": {
-    "babel-cli": "6.5.1",
-    "babel-eslint": "5.0.0-beta10",
-    "eslint": "1.10.3",
-    "eslint-config-airbnb": "5.0.0",
-    "eslint-plugin-react": "3.15.0"
+    "babel-cli": "6.9.0",
+    "babel-eslint": "6.0.4",
+    "eslint": "2.11.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.3",
+    "eslint-plugin-react": "5.1.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "js-babel": "^6.0.2",
-    "mocha": "^2.4.5"
+    "chai": "3.5.0",
+    "js-babel": "6.0.5",
+    "mocha": "2.5.3"
   },
   "repository": {
     "type": "git",
