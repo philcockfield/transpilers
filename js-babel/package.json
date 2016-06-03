@@ -1,6 +1,6 @@
 {
   "name": "js-babel",
-  "version": "6.0.4",
+  "version": "6.0.5",
   "description": "Consolidated babel dependencies.",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
@@ -8,16 +8,16 @@
     "prepublish": "npm test"
   },
   "dependencies": {
-    "babel-core": "^6.5.1",
-    "babel-polyfill": "^6.5.0",
-    "babel-preset-es2015": "^6.5.0",
-    "babel-preset-stage-0": "^6.5.0",
-    "babel-plugin-transform-class-properties": "^6.5.0",
-    "babel-register": "^6.5.1"
+    "babel-core": "6.9.1",
+    "babel-polyfill": "6.9.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-plugin-transform-class-properties": "6.9.1",
+    "babel-register": "6.9.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "chai": "3.5.0",
+    "mocha": "2.5.3"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
   },
   "keywords": [
     "babel",
-    "npm"
+    "npm",
+    "es6"
   ],
   "author": {
     "name": "Phil Cockfield",
