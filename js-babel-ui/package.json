@@ -1,6 +1,6 @@
 {
   "name": "js-babel-ui",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "description": "Consolidated babel dependencies for UI (React).",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --compilers js:babel-register",
@@ -8,13 +8,13 @@
     "prepublish": "npm test"
   },
   "dependencies": {
-    "js-babel": "6.0.5",
+    "js-babel": "6.0.6",
     "babel-loader": "6.2.4",
     "babel-preset-react": "6.5.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "js-babel-dev": "6.0.6",
+    "js-babel-dev": "6.0.7",
     "mocha": "2.5.3",
     "react": "15.1.0"
   },
