@@ -1,7 +1,7 @@
 # babel
-[![Build Status](https://travis-ci.org/philcockfield/babel.svg?branch=master)](https://travis-ci.org/philcockfield/babel)
+[![Build Status](https://travis-ci.org/philcockfield/transpilers.svg?branch=master)](https://travis-ci.org/philcockfield/transpilers)
 
-Modules that consolidate standard [Babel](https://babeljs.io/) configurations.
+Modules that consolidate standard [Babel](https://babeljs.io) and [TypeScript](https://www.typescriptlang.org) configurations.
 
 - [`js-babel`](https://github.com/philcockfield/babel/tree/master/js-babel) - [npm](https://www.npmjs.com/package/js-babel)
 - [`js-babel-dev`](https://github.com/philcockfield/babel/tree/master/js-babel-dev) -  [npm](https://www.npmjs.com/package/js-babel-dev)
