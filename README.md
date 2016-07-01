@@ -1,4 +1,4 @@
-# babel
+# transpilers
 [![Build Status](https://travis-ci.org/philcockfield/transpilers.svg?branch=master)](https://travis-ci.org/philcockfield/transpilers)
 
 Modules that consolidate standard [Babel](https://babeljs.io) and [TypeScript](https://www.typescriptlang.org) configurations.
