@@ -36,6 +36,6 @@
     "email": "phil@cockfield.net",
     "url": "https://github.com/philcockfield/modules"
   },
-  "homepage": "https://github.com/philcockfield/transpilers",
+  "homepage": "https://github.com/philcockfield/transpilers/tree/master/js-typescript",
   "license": "MIT"
 }

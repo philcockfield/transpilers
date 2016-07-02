@@ -3,11 +3,12 @@
 
 Modules that consolidate standard [Babel](https://babeljs.io) and [TypeScript](https://www.typescriptlang.org) configurations.
 
-- [`js-babel`](https://github.com/philcockfield/babel/tree/master/js-babel) - [npm](https://www.npmjs.com/package/js-babel)
-- [`js-babel-dev`](https://github.com/philcockfield/babel/tree/master/js-babel-dev) -  [npm](https://www.npmjs.com/package/js-babel-dev)
-- [`js-babel-ui`](https://github.com/philcockfield/babel/tree/master/js-babel-ui) -  [npm](https://www.npmjs.com/package/js-babel-ui)
+- [`js-typescript`](https://github.com/philcockfield/transpilers/tree/master/js-typescript) - [npm](https://www.npmjs.com/package/js-typescript)
+- [`js-babel`](https://github.com/philcockfield/transpilers/tree/master/js-babel) - [npm](https://www.npmjs.com/package/js-babel)
+- [`js-babel-dev`](https://github.com/philcockfield/transpilers/tree/master/js-babel-dev) -  [npm](https://www.npmjs.com/package/js-babel-dev)
+- [`js-babel-ui`](https://github.com/philcockfield/transpilers/tree/master/js-babel-ui) -  [npm](https://www.npmjs.com/package/js-babel-ui)
 
-For detailed configuration instructions see [`js-babel-dev`](https://github.com/philcockfield/babel/tree/master/js-babel-dev).
+For detailed configuration instructions see [`js-babel-dev`](https://github.com/philcockfield/transpilers/tree/master/js-babel-dev).
 
 
 ---

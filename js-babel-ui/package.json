@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philcockfield/babel"
+    "url": "https://github.com/philcockfield/transpilers"
   },
   "keywords": [
     "babel",
@@ -33,6 +33,6 @@
     "email": "phil@cockfield.net",
     "url": "https://github.com/philcockfield"
   },
-  "homepage": "https://github.com/philcockfield/babel/tree/master/js-babel-ui",
+  "homepage": "https://github.com/philcockfield/transpilers/tree/master/js-babel-ui",
   "license": "MIT"
 }
