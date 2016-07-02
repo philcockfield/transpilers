@@ -1,0 +1,41 @@
+{
+  "name": "js-typescript",
+  "version": "1.0.0",
+  "description": "Consolidated TypeScript dependencies.",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --opts mocha.opts",
+    "tdd": "npm run test -- --reporter min --watch",
+    "lint": "./node_modules/tslint/bin/tslint src/*.ts{,x} src/**/*.ts{x}",
+    "build": "./node_modules/typescript/bin/tsc",
+    "prepublish": "npm test && npm run lint && npm run build"
+  },
+  "dependencies": {
+    "tslint": "^3.11.0",
+    "tslint-react": "^0.2.0",
+    "typescript": "^1.9.0-dev.20160617-1.0",
+    "typings": "^1.3.0",
+    "ts-node": "^0.9.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philcockfield/transpilers"
+  },
+  "keywords": [
+    "typescript",
+    "es6",
+    "transpiler"
+  ],
+  "author": {
+    "name": "Phil Cockfield",
+    "email": "phil@cockfield.net",
+    "url": "https://github.com/philcockfield/modules"
+  },
+  "homepage": "https://github.com/philcockfield/transpilers",
+  "license": "MIT"
+}
