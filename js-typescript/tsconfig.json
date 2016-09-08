@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
     "outDir": "./lib",
     "target": "es6",
-    "sourceMap": true,
+    "inlineSourceMap": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "isolatedModules": false,
@@ -15,10 +14,15 @@
     "removeComments": true,
     "noLib": false,
     "preserveConstEnums": true,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "pretty": true
   },
   "exclude": [
     "node_modules",
     "lib"
+  ],
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts"
   ]
 }
