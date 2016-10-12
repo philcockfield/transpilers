@@ -1,6 +1,6 @@
 {
   "name": "js-typescript",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Consolidated TypeScript dependencies.",
   "peerDependencies": {
     "ts-node": "1.4.3",
