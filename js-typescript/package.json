@@ -3,15 +3,15 @@
   "version": "2.2.0",
   "description": "Consolidated TypeScript dependencies.",
   "peerDependencies": {
-    "ts-node": "1.4.3",
+    "ts-node": "1.6.0",
     "tslint": "3.15.1",
-    "tslint-react": "1.0.0",
+    "tslint-react": "1.1.0",
     "typescript": "2.0.3"
   },
   "dependencies": {
-    "ts-node": "1.4.3",
+    "ts-node": "1.6.0",
     "tslint": "3.15.1",
-    "tslint-react": "1.0.0",
+    "tslint-react": "1.1.0",
     "typescript": "2.0.3"
   },
   "repository": {
