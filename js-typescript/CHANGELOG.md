@@ -11,6 +11,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 #### Fixed
 #### Security
 
+## [2.2.0] - 2016-10-21
+#### Removed
+- Typings
+
+
 ## [0.0.1] - YYYY-MM-DD
 #### Added
 Initial creation and publish.
