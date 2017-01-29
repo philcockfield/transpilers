@@ -1,18 +1,20 @@
 {
   "name": "js-typescript",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Consolidated TypeScript dependencies.",
   "peerDependencies": {
-    "ts-node": "1.6.0",
-    "tslint": "3.15.1",
-    "tslint-react": "1.1.0",
-    "typescript": "2.0.3"
+    "@types/node": "7.0.4",
+    "ts-node": "2.0.0",
+    "tslint": "4.4.2",
+    "tslint-react": "2.3.0",
+    "typescript": "2.1.5"
   },
   "dependencies": {
-    "ts-node": "1.6.0",
-    "tslint": "3.15.1",
-    "tslint-react": "1.1.0",
-    "typescript": "2.0.3"
+    "@types/node": "7.0.4",
+    "ts-node": "2.0.0",
+    "tslint": "4.4.2",
+    "tslint-react": "2.3.0",
+    "typescript": "2.1.5"
   },
   "repository": {
     "type": "git",

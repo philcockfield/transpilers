@@ -11,6 +11,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 #### Fixed
 #### Security
 
+## [2.2.1] - 2017-01-30
+#### Added
+- Added `@types/node`
+#### Changed
+- Updated versions.
+
+
 ## [2.2.0] - 2016-10-21
 #### Removed
 - Typings
