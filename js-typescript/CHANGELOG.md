@@ -3,13 +3,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
-## [Unreleased] - YYYY-MM-DD
-#### Added
+## [2.3.0] - 2017-04-23
 #### Changed
-#### Deprecated
-#### Removed
-#### Fixed
-#### Security
+- Bumped version (Typescript 2.2.2)
+
 
 ## [2.2.1] - 2017-01-30
 #### Added
